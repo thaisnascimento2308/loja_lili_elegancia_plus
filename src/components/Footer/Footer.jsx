@@ -1,5 +1,5 @@
 import React from 'react';
-import './components/Footer.css';
+import './Footer.css'; // Importa o arquivo CSS responsável pela estilização do Footer.
 
 function Footer() {
     return(
