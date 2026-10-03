@@ -3,7 +3,6 @@
 Uma aplicação web desenvolvida em **React.js + Vite** para simular um e-commerce fictício de roupas plus size.
 
 O projeto foi desenvolvido como parte do **🚀 Desafio 02: Painel Interativo com API Pública**, com foco no consumo de uma API REST, manipulação de dados, componentização, responsividade e interação com o usuário.
-
 ---
 
 ## 📖 O que é?
@@ -69,7 +68,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 Endpoint utilizado:
 
-https://fakestoreapi.com/products
+'https://dummyjson.com/products/category/womens-dresses'
 
 ### Conceitos Aplicados
 
@@ -109,9 +108,7 @@ git --version
 ---
 
 ### 1. Clonar o repositório
-git clone URL_DO_REPOSITORIO
-
-> Substitua `https://github.com/thaisnascimento2308/Bootcamp_Desenvolvedor_de_Solucoes_Digitais/tree/main/Terceiro_Projeto/meu-projeto` pelo endereço do repositório no GitHub.
+git clone git@github.com:thaisnascimento2308/loja_lili_elegancia_plus.git
 ---
 
 ### 2. Entrar na pasta do projeto
@@ -129,7 +126,6 @@ npm install axios
 ### 5. Executar o projeto
 bash
 npm run dev
-
 ---
 
 ### 6. Abrir no navegador
@@ -260,7 +256,7 @@ A aplicação utiliza o **Axios** para realizar uma requisição HTTP GET:
 
 javascript
 const response = await axios.get(
-  'https://fakestoreapi.com/products'
+  'https://dummyjson.com/products/category/womens-dresses'
 );
 
 Após a resposta da API, os dados são armazenados no estado:
@@ -327,7 +323,7 @@ http://localhost:5173
 
 Link da aplicação publicada:
 
-https://lojalilieleganciaplus-iknomgsjl-thais-nascimento.vercel.app/
+https://lojalilieleganciaplus.vercel.app/
 ---
 
 ## 💻 Repositório
@@ -336,7 +332,6 @@ https://lojalilieleganciaplus-iknomgsjl-thais-nascimento.vercel.app/
 
 Repositório do projeto:
 https://github.com/thaisnascimento2308/loja_lili_elegancia_plus
-
 ---
 
 ## 🤖 Uso de Inteligência Artificial
@@ -427,7 +422,6 @@ Durante o desenvolvimento do projeto, utilizei Inteligência Artificial como fer
 > 15. link da aplicação publicada.
 >
 > Quero que as soluções sejam explicadas de forma didática, com linguagem simples e sem gerar código desnecessariamente complexo.
-
 ---
 
 ## 📚 Objetivo Acadêmico
