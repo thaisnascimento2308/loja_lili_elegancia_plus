@@ -1,0 +1,30 @@
+/* 
+  Estilos exclusivos do componente Header.
+  O arquivo CSS é separado do JSX para facilitar
+  a organização e o aprendizado.
+*/
+
+.header {
+  width: 100%;
+  padding: 24px;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #222222;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 600px) {
+  .header {
+    padding: 20px 16px;
+  }
+
+  .header h1 {
+    font-size: 1.6rem;
+  }
+}
