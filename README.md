@@ -260,7 +260,7 @@ A aplicação utiliza o **Axios** para realizar uma requisição HTTP GET:
 
 javascript
 const response = await axios.get(
-  'https://fakestoreapi.com/products'
+  'https://dummyjson.com/products/category/womens-dresses'
 );
 
 Após a resposta da API, os dados são armazenados no estado:
